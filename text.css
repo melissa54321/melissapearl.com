@@ -1,9 +1,18 @@
 @import url(//db.onlinewebfonts.com/c/4d48ce12aa61776288d8361ba748c531?family=PhosphateRRSolid);
 
-body, p { font-family: PhosphateRRSolid,Arial,Helvetica,adobe-helvetica,Arial Narrow; font-size: 20px;}
+body, p { font-family: PhosphateRRSolid,Arial,Helvetica,adobe-helvetica,Arial Narrow; 
+	font-size: 20px;}
 
+h1 {
+	text-align:center;
+	font-size: 64px;
+}
 
 h3 {
 font-family: Arial, sans-serif;
 font-size: 24pt;
+}
+
+span {
+	font-size: 15px !important;
 }
