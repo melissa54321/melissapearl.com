@@ -8,6 +8,12 @@ h1 {
 	font-size: 64px;
 }
 
+h2 {
+	font-size: 30px;
+	font-weight:bold;
+	text-align:center !important;
+}
+
 h3 {
 font-family: Arial, sans-serif;
 font-size: 24pt;
