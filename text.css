@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(//db.onlinewebfonts.com/c/4d48ce12aa61776288d8361ba748c531?family=PhosphateRRSolid);
 
 body, p { font-family: PhosphateRRSolid,Arial,Helvetica,adobe-helvetica,Arial Narrow; 
@@ -21,4 +22,18 @@ font-size: 24pt;
 
 span {
 	font-size: 15px !important;
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+q::before {
+    content: open-quote;
+    font-family:"Arial Black", Arial, sans-serif !important;
+    font-weight: bold;
+}
+q::after {
+    content: close-quote;
+    font-family:"Arial Black", Arial, sans-serif !important;
+    font-weight: bold;
 }
